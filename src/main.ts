@@ -9,8 +9,6 @@ import {
   apiUploadAudio,
   apiCompleteSession,
   apiReportPdfUrl,
-  type BackendReport,
-  type BackendScores,
 } from './api/client'
 
 declare global {
