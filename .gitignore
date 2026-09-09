@@ -1,0 +1,50 @@
+# ── Node / Frontend ───────────────────────────────────────────────────────────
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── Python / Backend ─────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.env
+.venv/
+venv/
+env/
+
+# SQLite database — contains real user data, never commit
+ergo_ml_backend/ergocare.db
+ergocare.db
+
+# Audio uploads — large binary files, stored on server disk
+ergo_ml_backend/uploads/
+uploads/
+
+# Python egg / build artifacts
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Misc ─────────────────────────────────────────────────────────────────────
+*.docx

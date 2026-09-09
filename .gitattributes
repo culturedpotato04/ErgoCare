@@ -1,0 +1,19 @@
+# Normalise line endings to LF in the repo, checkout with system line endings
+* text=auto eol=lf
+*.py text eol=lf
+*.ts text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.css text eol=lf
+*.svg text eol=lf
+*.txt text eol=lf
+
+# Binaries — don't touch line endings
+*.png binary
+*.jpg binary
+*.webm binary
+*.wav binary
+*.pdf binary
+*.db binary
